@@ -16,15 +16,15 @@ export namespace Context {
 	export import Header = _Header
 	export import Menu = _Menu
 	export function load(site: Site, path: string): Context {
-		const page = Site.Page.locate(site.page, path.split("/")) ?? {
+		const page = (path.startsWith("/") && Site.Page.locate(site.page, path.substring(1).split("/"))) || {
 			title: "Not Found",
 			content: "The requested page was not found.",
 		}
 		return {
 			title: `${site.title} · ${page?.title ?? ""}`,
 			base: site.url,
-			url: site.url + "/" + path,
-			menu: Menu.load(site, path),
+			url: site.url + path,
+			menu: Menu.load(site, path.substring(1)),
 			content: {
 				mode: "full",
 				id: path.substring(path.lastIndexOf("/") + 1),

@@ -1,6 +1,6 @@
 // Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
 
-exports[`simonmika-com > model.Context.load() 1`] = `
+exports[`simonmika-com > model.Context.load(/) 1`] = `
 {
   "base": "https://simonmika.com",
   "content": {
@@ -123,7 +123,7 @@ exports[`simonmika-com > model.Context.load() 1`] = `
 }
 `;
 
-exports[`simonmika-com > model.Context.load(about) 1`] = `
+exports[`simonmika-com > model.Context.load(/about) 1`] = `
 {
   "base": "https://simonmika.com",
   "content": {
@@ -257,7 +257,7 @@ I live in Uppsala, Sweden with my wife Sanna",
 }
 `;
 
-exports[`simonmika-com > model.Context.load(articles) 1`] = `
+exports[`simonmika-com > model.Context.load(/articles) 1`] = `
 {
   "base": "https://simonmika.com",
   "content": {
@@ -380,7 +380,7 @@ exports[`simonmika-com > model.Context.load(articles) 1`] = `
 }
 `;
 
-exports[`simonmika-com > model.Context.load(articles/abstractions) 1`] = `
+exports[`simonmika-com > model.Context.load(/articles/abstractions) 1`] = `
 {
   "base": "https://simonmika.com",
   "content": {
@@ -514,7 +514,7 @@ When we program we need to spend more time thinking about the bigger picture, ho
 }
 `;
 
-exports[`simonmika-com > model.Context.load(articles/naming) 1`] = `
+exports[`simonmika-com > model.Context.load(/articles/naming) 1`] = `
 {
   "base": "https://simonmika.com",
   "content": {
@@ -649,7 +649,7 @@ Getting _naming_ right is one of the really _hard parts_ of programming. It is a
 }
 `;
 
-exports[`simonmika-com > model.Context.load(articles/to-live) 1`] = `
+exports[`simonmika-com > model.Context.load(/articles/to-live) 1`] = `
 {
   "base": "https://simonmika.com",
   "content": {
@@ -772,7 +772,7 @@ exports[`simonmika-com > model.Context.load(articles/to-live) 1`] = `
 }
 `;
 
-exports[`simonmika-com > model.Context.load(contact) 1`] = `
+exports[`simonmika-com > model.Context.load(/contact) 1`] = `
 {
   "base": "https://simonmika.com",
   "content": {
@@ -909,7 +909,7 @@ exports[`simonmika-com > model.Context.load(contact) 1`] = `
 }
 `;
 
-exports[`simonmika-com > model.Context.load(non-existent) 1`] = `
+exports[`simonmika-com > model.Context.load(/non-existent) 1`] = `
 {
   "base": "https://simonmika.com",
   "content": {
@@ -1032,7 +1032,7 @@ exports[`simonmika-com > model.Context.load(non-existent) 1`] = `
 }
 `;
 
-exports[`simonmika-com > model.Context.load(talks) 1`] = `
+exports[`simonmika-com > model.Context.load(/talks) 1`] = `
 {
   "base": "https://simonmika.com",
   "content": {

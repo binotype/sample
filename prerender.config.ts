@@ -1,7 +1,7 @@
 import { PrerenderConfig } from "@stencil/core"
 
 export const config: PrerenderConfig = {
-	entryUrls: ["/", "/profile/stencil"],
+	entryUrls: ["/", "/about"],
 	crawlUrls: true,
 	hydrateOptions(url) {
 		return {
