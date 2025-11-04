@@ -26,7 +26,7 @@
 		"jsxFactory": "h",
 		"types": [
 			"node",
-			"jest"
+			"vitest/globals"
 		],
 		"plugins": [
 			{

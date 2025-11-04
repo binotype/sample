@@ -1,0 +1,211 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`simonmika-com > model.Context.load() 1`] = `
+{
+  "content": {
+    "content": "The requested page was not found.",
+    "id": "",
+    "mode": "full",
+    "summary": "The requested page was not found.",
+    "title": "Not Found",
+  },
+  "footer": "Copyright © 2025 Simon Says, All rights reserved",
+  "menu": {
+    "items": [],
+  },
+  "title": "Simon Says · Not Found",
+  "url": "https://simonmika.com",
+}
+`;
+
+exports[`simonmika-com > model.Context.load(about) 1`] = `
+{
+  "content": {
+    "content": "I am Simon Mika, and I create things. Professionally I create software products. Either hands on or by creating the organization that builds the products.
+
+I live in Uppsala, Sweden with my wife Sannah and my four kids in a house from 1937 that we have been renovating since 2009.
+
+I write about building software and building companies.
+
+Currently, I help companies as a consultant with everything from software architecture to business development. If you are interested in my services please [contact me](../contact). When I don't work for money I also spend time on [SysPL](https://github.com/syspl/syspl) and [TypeUp](https://github.com/cogneco/typeup).
+
+You can find out more about me on my page on [LinkedIn](https://se.linkedin.com/in/simonmika) and on [GitHub](https://github.com/simonmika).
+",
+    "id": "about",
+    "mode": "full",
+    "summary": "I am Simon Mika, and I create things. Professionally I create software products. Either hands on or by creating the organization that builds the products.
+
+I live in Uppsala, Sweden with my wife Sanna",
+    "title": "About",
+  },
+  "footer": "Copyright © 2025 Simon Says, All rights reserved",
+  "menu": {
+    "items": [],
+  },
+  "title": "Simon Says · About",
+  "url": "https://simonmika.com",
+}
+`;
+
+exports[`simonmika-com > model.Context.load(articles) 1`] = `
+{
+  "content": {
+    "content": "",
+    "id": "articles",
+    "mode": "full",
+    "summary": "...",
+    "title": "(untitled)",
+  },
+  "footer": "Copyright © 2025 Simon Says, All rights reserved",
+  "menu": {
+    "items": [],
+  },
+  "title": "Simon Says · ",
+  "url": "https://simonmika.com",
+}
+`;
+
+exports[`simonmika-com > model.Context.load(articles/abstractions) 1`] = `
+{
+  "content": {
+    "content": "We humans can in our head only concurrently work with about eight items. If we try to work with significantly more we will lose some items. It is the human equivalent of a stack overflow. Our stack has a maximum depth of about eight. In order to handle more we need to bundle items together into a new item. It is the equivalent of grouping them together in a data structure and putting them into the heap and just store the pointer to it all on the stack.
+
+We humans can in our head only concurrently work with about eight items. If we try to work with significantly more we will lose some items. It is the human equivalent of a stack overflow. Our stack has a maximum depth of about eight. In order to handle more we need to bundle items together into a new item. It is the equivalent of grouping them together in a data structure and putting them into the heap and just store the pointer to it all on the stack.
+
+This is one of the main reasons programming is all about creating abstractions. Abstractions enable us to reason about bigger chunks of code. Well done, they also enable us to cooperate in large groups.
+
+> Programming is all about creating abstractions.
+
+Lack of abstractions is the single most common reason for technical debt in software. This probably comes from the fact that programming is to instruct a computer, mostly in a linear manner. It is like constructing a new car model using step by step instruction of how to manufacture and combine the parts, without separating the instructions into parts and subassemblies. Like starting the instructions with take a piece of steel and place it in the lathe and then continue in a similar manner until the factory rolls out. The bigger picture is lost in all the details.
+
+When we program we need to spend more time thinking about the bigger picture, how the different parts interact and focus less on how they perform their tasks inside the black box. If we get the first part right the later is a lot easier to fix later. If it even needs fixing.
+",
+    "id": "articles/abstractions",
+    "mode": "full",
+    "summary": "We humans can in our head only concurrently work with about eight items. If we try to work with significantly more we will lose some items. It is the human equivalent of a stack overflow. Our stack ha",
+    "title": "Abstractions",
+  },
+  "footer": "Copyright © 2025 Simon Says, All rights reserved",
+  "menu": {
+    "items": [],
+  },
+  "title": "Simon Says · Abstractions",
+  "url": "https://simonmika.com",
+}
+`;
+
+exports[`simonmika-com > model.Context.load(articles/naming) 1`] = `
+{
+  "content": {
+    "content": "The power of _naming_ extends far beyond programming. From ancient myths where knowing something's _true name_ gave power over it, to modern branding where companies spend millions on finding the _right name_, to parents carefully choosing names for their children – our ability to name things shapes how we think and communicate about them.
+
+In software development, this universal human trait becomes _absolutely crucial_. Unlike physical engineering where you can point to concrete objects, programming deals entirely with _mental constructs_ and _abstract concepts_. We can't touch or see our constructs directly – we can only refer to them by name. Almost all concepts programming languages provide to create [abstractions](../abstractions) have one really important thing in common. They all have the ability to _name_ the abstraction. This is among others true for _variables_, _functions_, _classes_ and _namespaces_.
+
+> The _name_ is the most important part of a good _abstraction_.
+
+In fact, the _name_ is their most important feature. Without a _descriptive name_ it wouldn't be an abstraction anymore. Every time we needed to use an _unnamed abstraction_ we would need to look _inside_ it to find out which one it is. That totally defeats the [purpose of creating abstractions](../abstractions) in the first place.
+
+For many problem domains there does not exist a good and stringent enough _nomenclature_. We therefore usually need to _create_ one. When we do that we should take that task _seriously_. Getting it right will not only make it easier for the programmers following in our footsteps but also for ourselves. Good _names_ help us to _reason_ about a problem. We should also spend effort to _document_ our definitions of the different names used as a reminder to ourselves and to help future programmers.
+
+> By putting more effort into _naming_ you can avoid a lot of _trouble_ and _refactoring_ later.
+
+Getting _naming_ right is one of the really _hard parts_ of programming. It is at the core of why it sometimes is easier to _start over_ from scratch than to incrementally improve code written by others. By putting more effort into the naming you can avoid a lot of trouble and refactoring later.",
+    "id": "articles/naming",
+    "mode": "full",
+    "summary": "The power of _naming_ extends far beyond programming. From ancient myths where knowing something's _true name_ gave power over it, to modern branding where companies spend millions on finding the _rig",
+    "title": "Naming",
+  },
+  "footer": "Copyright © 2025 Simon Says, All rights reserved",
+  "menu": {
+    "items": [],
+  },
+  "title": "Simon Says · Naming",
+  "url": "https://simonmika.com",
+}
+`;
+
+exports[`simonmika-com > model.Context.load(articles/to-live) 1`] = `
+{
+  "content": {
+    "content": "The requested page was not found.",
+    "id": "articles/to-live",
+    "mode": "full",
+    "summary": "The requested page was not found.",
+    "title": "Not Found",
+  },
+  "footer": "Copyright © 2025 Simon Says, All rights reserved",
+  "menu": {
+    "items": [],
+  },
+  "title": "Simon Says · Not Found",
+  "url": "https://simonmika.com",
+}
+`;
+
+exports[`simonmika-com > model.Context.load(contact) 1`] = `
+{
+  "content": {
+    "content": "Don't hesitate to contact me with ideas, suggestions and opinions. I look forward to hear from you.
+
+<form action="https://getsimpleform.com/messages?form_api_token=5f6ce7baef1b2e89d2be999fdc119828" method="post">
+<input type='hidden' name='redirect_to' value='https://simonmika.com/message-received' />
+<label for="name">Name</label>
+<input type="text" name="name" />
+<label for="email">Email</label>
+<input type="email" name="email" />
+<label for="message">Message</label>
+<textarea name="message"></textarea>
+<button type="submit">Send</button>
+</form>
+",
+    "id": "contact",
+    "mode": "full",
+    "summary": "Don't hesitate to contact me with ideas, suggestions and opinions. I look forward to hear from you.
+
+<form action="https://getsimpleform.com/messages?form_api_token=5f6ce7baef1b2e89d2be999fdc119828" m",
+    "title": "Contact",
+  },
+  "footer": "Copyright © 2025 Simon Says, All rights reserved",
+  "menu": {
+    "items": [],
+  },
+  "title": "Simon Says · Contact",
+  "url": "https://simonmika.com",
+}
+`;
+
+exports[`simonmika-com > model.Context.load(non-existent) 1`] = `
+{
+  "content": {
+    "content": "The requested page was not found.",
+    "id": "non-existent",
+    "mode": "full",
+    "summary": "The requested page was not found.",
+    "title": "Not Found",
+  },
+  "footer": "Copyright © 2025 Simon Says, All rights reserved",
+  "menu": {
+    "items": [],
+  },
+  "title": "Simon Says · Not Found",
+  "url": "https://simonmika.com",
+}
+`;
+
+exports[`simonmika-com > model.Context.load(talks) 1`] = `
+{
+  "content": {
+    "content": "",
+    "id": "talks",
+    "mode": "full",
+    "summary": "...",
+    "title": "(untitled)",
+  },
+  "footer": "Copyright © 2025 Simon Says, All rights reserved",
+  "menu": {
+    "items": [],
+  },
+  "title": "Simon Says · ",
+  "url": "https://simonmika.com",
+}
+`;
