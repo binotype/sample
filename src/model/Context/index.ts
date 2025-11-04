@@ -22,7 +22,7 @@ export namespace Context {
 		return {
 			title: `${site.title} · ${page?.title ?? ""}`,
 			url: site.url,
-			menu: { items: [] },
+			menu: Menu.load(site, path),
 			content: {
 				id: path,
 				mode: "full",
