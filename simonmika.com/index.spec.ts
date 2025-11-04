@@ -1,5 +1,6 @@
 import { model } from "../src/model"
 import { site } from "./index"
+import { describe, expect, it } from "vitest"
 
 describe("simonmika-com", () => {
 	it.each([
@@ -12,5 +13,5 @@ describe("simonmika-com", () => {
 		"/contact",
 		"/talks",
 		"/non-existent",
-	])("model.Context.load(%s)", path => expect(model.Context.load(site, path)).toMatchSnapshot())
+	] as const)("model.Context.load(%s)", path => expect(model.Context.load(site, path)).toMatchSnapshot())
 })

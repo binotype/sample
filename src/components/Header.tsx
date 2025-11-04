@@ -1,9 +1,9 @@
 import { FunctionalComponent, h } from "@stencil/core"
 
-export const Header: FunctionalComponent<Header.Properties> = ({ url, logotype, title, tagline }, children) => (
+export const Header: FunctionalComponent<Header.Properties> = ({ base, logotype, title, tagline }, children) => (
 	<header>
 		<h1>
-			<a href={url}>{logotype ? <img src={logotype} alt={`${title}${tagline ? ` · ${tagline}` : ""}`} /> : title}</a>
+			<a href={base}>{logotype ? <img src={logotype} alt={`${title}${tagline ? ` · ${tagline}` : ""}`} /> : title}</a>
 		</h1>
 		{tagline && <p>{tagline}</p>}
 		{children}
@@ -11,7 +11,7 @@ export const Header: FunctionalComponent<Header.Properties> = ({ url, logotype, 
 )
 export namespace Header {
 	export interface Properties {
-		url: string
+		base: string
 		logotype?: string
 		title: string
 		tagline?: string

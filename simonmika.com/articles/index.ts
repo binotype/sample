@@ -12,6 +12,7 @@ import { takingRiskWhenDying } from "./taking-risk-when-dying"
 import { toLive } from "./to-live"
 
 export const articles: model.Site.Page = {
+	title: "Articles",
 	pages: {
 		abstractions,
 		cssBroken,

@@ -17,7 +17,7 @@ export const Article: FunctionalComponent<Article.Properties> = ({
 	<article id={id} class={`mode-${mode}`}>
 		{header && <Part.Header {...header} />}
 		{aside && <Part.Aside {...aside} />}
-		{content && <Part.Content {...content} />}
+		{content && <Part.Content content={content} />}
 		{sections && sections.map(section => <Article {...section} />)}
 		{footer && <Part.Footer {...footer} />}
 		{summary && <Part.Summary summary={summary} />}
@@ -25,12 +25,12 @@ export const Article: FunctionalComponent<Article.Properties> = ({
 	</article>
 )
 export namespace Article {
-	export interface Properties extends Part.Summary.Properties, SelfLink.Properties {
+	export interface Properties extends Partial<Part.Summary.Properties>, SelfLink.Properties {
 		id: string
 		mode: "body" | "full" | "header" | "list" | "summary"
 		header?: Part.Header.Properties
 		aside?: Part.Aside.Properties
-		content?: Part.Content.Properties
+		content?: string
 		sections?: Properties[]
 		footer?: Part.Footer.Properties
 	}

@@ -8,7 +8,7 @@ export namespace Menu {
 	export import Item = _Item
 	export function load(site: Site, current: string): Menu {
 		return {
-			items: Item.load(site.page, "", current).items,
+			items: Item.load(site.page, "", current)?.items.filter((item): item is Item => item != undefined) ?? [],
 		}
 	}
 }

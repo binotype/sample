@@ -1,12 +1,14 @@
 export interface Design {
 	logotype?: string
+	icon?: string
 	navigation?: "header" | "body"
-	styles: string[]
-	home: {
+	styles?: string[]
+	scripts?: string[]
+	home?: {
 		mode: "body" | "full" | "header" | "list" | "summary"
 		section: "article"
 	}
-	list: {
+	list?: {
 		mode: "body" | "full" | "header" | "list" | "summary"
 	}
 }

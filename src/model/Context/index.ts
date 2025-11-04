@@ -1,18 +1,22 @@
 import { Site } from "../Site"
-import { Content as _Content } from "./Content"
+import { Article as _Article } from "./Article"
 import { Header as _Header } from "./Header"
 import { Menu as _Menu } from "./Menu"
 
 export interface Context {
 	title: string
+	tagline?: string
+	image?: string
+	description?: string
+	design?: Site.Design
 	base: string
 	url: string
 	menu: Context.Menu
-	content: Context.Content
+	article: Context.Article
 	footer: string
 }
 export namespace Context {
-	export import Content = _Content
+	export import Article = _Article
 	export import Header = _Header
 	export import Menu = _Menu
 	export function load(site: Site, path: string): Context {
@@ -21,17 +25,12 @@ export namespace Context {
 			content: "The requested page was not found.",
 		}
 		return {
-			title: `${site.title} · ${page?.title ?? ""}`,
+			title: site.title, // `${site.title} · ${page?.title ?? ""}`,
 			base: site.url,
 			url: site.url + path,
 			menu: Menu.load(site, path.substring(1)),
-			content: {
-				mode: "full",
-				id: path.substring(path.lastIndexOf("/") + 1),
-				title: Site.Page.getTitle(page),
-				summary: page.content ? String(page.content).slice(0, 200) : "",
-				main: String(page.content ?? ""),
-			},
+			design: site.design,
+			article: Article.load(page!, path.substring(path.lastIndexOf("/") + 1)),
 			footer: `Copyright © ${new Date().getFullYear()} ${site.title}, All rights reserved`,
 		}
 	}

@@ -1,7 +1,15 @@
+// vite.config.ts
+import stencil from "unplugin-stencil/vite"
 import { defineConfig } from "vitest/config"
+import { webdriverio } from "@vitest/browser-webdriverio"
 
 export default defineConfig({
 	test: {
+		browser: {
+			enabled: true,
+			provider: webdriverio(),
+			instances: [{ browser: "chrome" }],
+		},
 		typecheck: {
 			tsconfig: "./tsconfig.json",
 		},
@@ -10,11 +18,10 @@ export default defineConfig({
 			provider: "istanbul",
 		},
 		globals: true,
-		environment: "happy-dom", // Use happy-dom for better ES module support
 		include: ["**/*.spec.[tj]s"],
 		testTimeout: 20000,
 		isolate: false,
-		exclude: ["node_modules", "dist", "www"],
+		exclude: ["node_modules", "dist"],
 		server: {
 			deps: {
 				inline: [
@@ -38,4 +45,9 @@ export default defineConfig({
 			},
 		},
 	},
+	plugins: [
+		stencil({
+			/* Stencil configuration overwrites */
+		}),
+	],
 })

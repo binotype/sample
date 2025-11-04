@@ -2,13 +2,38 @@
 
 exports[`simonmika-com > model.Context.load(/) 1`] = `
 {
-  "base": "https://simonmika.com",
-  "content": {
+  "article": {
+    "content": "The requested page was not found.",
+    "header": {
+      "title": "Not Found",
+    },
     "id": "",
-    "main": "The requested page was not found.",
     "mode": "full",
-    "summary": "The requested page was not found.",
-    "title": "Not Found",
+  },
+  "base": "https://simonmika.com",
+  "design": {
+    "home": {
+      "mode": "header",
+      "section": "article",
+    },
+    "icon": "/assets/icon/favicon.ico",
+    "list": {
+      "mode": "header",
+    },
+    "logotype": "/assets/img/logotype.svg",
+    "navigation": "header",
+    "scripts": [
+      "//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.6.0/highlight.min.js",
+    ],
+    "styles": [
+      "/assets/css/reset.css",
+      "/assets/css/text.css",
+      "/assets/css/color.css",
+      "/assets/css/layout.css",
+      "/assets/css/form.css",
+      "/assets/css/blockquotes.css",
+      "//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.6.0/styles/default.min.css",
+    ],
   },
   "footer": "Copyright © 2025 Simon Says, All rights reserved",
   "menu": {
@@ -82,13 +107,13 @@ exports[`simonmika-com > model.Context.load(/) 1`] = `
             "url": "/articles/to-live",
           },
         ],
-        "label": "(untitled)",
+        "label": "Articles",
         "selected": undefined,
         "url": "/articles",
       },
       {
         "items": [],
-        "label": "(untitled)",
+        "label": "Talks",
         "selected": undefined,
         "url": "/talks",
       },
@@ -98,37 +123,17 @@ exports[`simonmika-com > model.Context.load(/) 1`] = `
         "selected": undefined,
         "url": "/about",
       },
-      {
-        "items": [],
-        "label": "Contact",
-        "selected": undefined,
-        "url": "/contact",
-      },
-      {
-        "items": [],
-        "label": "Description",
-        "selected": undefined,
-        "url": "/description",
-      },
-      {
-        "items": [],
-        "label": "Subscribe",
-        "selected": undefined,
-        "url": "/subscribe",
-      },
     ],
   },
-  "title": "Simon Says · Not Found",
+  "title": "Simon Says",
   "url": "https://simonmika.com/",
 }
 `;
 
 exports[`simonmika-com > model.Context.load(/about) 1`] = `
 {
-  "base": "https://simonmika.com",
-  "content": {
-    "id": "about",
-    "main": "I am Simon Mika, and I create things. Professionally I create software products. Either hands on or by creating the organization that builds the products.
+  "article": {
+    "content": "I am Simon Mika, and I create things. Professionally I create software products. Either hands on or by creating the organization that builds the products.
 
 I live in Uppsala, Sweden with my wife Sannah and my four kids in a house from 1937 that we have been renovating since 2009.
 
@@ -138,11 +143,36 @@ Currently, I help companies as a consultant with everything from software archit
 
 You can find out more about me on my page on [LinkedIn](https://se.linkedin.com/in/simonmika) and on [GitHub](https://github.com/simonmika).
 ",
+    "header": {
+      "title": "About",
+    },
+    "id": "about",
     "mode": "full",
-    "summary": "I am Simon Mika, and I create things. Professionally I create software products. Either hands on or by creating the organization that builds the products.
-
-I live in Uppsala, Sweden with my wife Sanna",
-    "title": "About",
+  },
+  "base": "https://simonmika.com",
+  "design": {
+    "home": {
+      "mode": "header",
+      "section": "article",
+    },
+    "icon": "/assets/icon/favicon.ico",
+    "list": {
+      "mode": "header",
+    },
+    "logotype": "/assets/img/logotype.svg",
+    "navigation": "header",
+    "scripts": [
+      "//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.6.0/highlight.min.js",
+    ],
+    "styles": [
+      "/assets/css/reset.css",
+      "/assets/css/text.css",
+      "/assets/css/color.css",
+      "/assets/css/layout.css",
+      "/assets/css/form.css",
+      "/assets/css/blockquotes.css",
+      "//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.6.0/styles/default.min.css",
+    ],
   },
   "footer": "Copyright © 2025 Simon Says, All rights reserved",
   "menu": {
@@ -216,13 +246,13 @@ I live in Uppsala, Sweden with my wife Sanna",
             "url": "/articles/to-live",
           },
         ],
-        "label": "(untitled)",
+        "label": "Articles",
         "selected": undefined,
         "url": "/articles",
       },
       {
         "items": [],
-        "label": "(untitled)",
+        "label": "Talks",
         "selected": undefined,
         "url": "/talks",
       },
@@ -232,40 +262,47 @@ I live in Uppsala, Sweden with my wife Sanna",
         "selected": undefined,
         "url": "/about",
       },
-      {
-        "items": [],
-        "label": "Contact",
-        "selected": undefined,
-        "url": "/contact",
-      },
-      {
-        "items": [],
-        "label": "Description",
-        "selected": undefined,
-        "url": "/description",
-      },
-      {
-        "items": [],
-        "label": "Subscribe",
-        "selected": undefined,
-        "url": "/subscribe",
-      },
     ],
   },
-  "title": "Simon Says · About",
+  "title": "Simon Says",
   "url": "https://simonmika.com/about",
 }
 `;
 
 exports[`simonmika-com > model.Context.load(/articles) 1`] = `
 {
-  "base": "https://simonmika.com",
-  "content": {
+  "article": {
+    "content": "",
+    "header": {
+      "title": "Articles",
+    },
     "id": "articles",
-    "main": "",
     "mode": "full",
-    "summary": "",
-    "title": "(untitled)",
+  },
+  "base": "https://simonmika.com",
+  "design": {
+    "home": {
+      "mode": "header",
+      "section": "article",
+    },
+    "icon": "/assets/icon/favicon.ico",
+    "list": {
+      "mode": "header",
+    },
+    "logotype": "/assets/img/logotype.svg",
+    "navigation": "header",
+    "scripts": [
+      "//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.6.0/highlight.min.js",
+    ],
+    "styles": [
+      "/assets/css/reset.css",
+      "/assets/css/text.css",
+      "/assets/css/color.css",
+      "/assets/css/layout.css",
+      "/assets/css/form.css",
+      "/assets/css/blockquotes.css",
+      "//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.6.0/styles/default.min.css",
+    ],
   },
   "footer": "Copyright © 2025 Simon Says, All rights reserved",
   "menu": {
@@ -339,13 +376,13 @@ exports[`simonmika-com > model.Context.load(/articles) 1`] = `
             "url": "/articles/to-live",
           },
         ],
-        "label": "(untitled)",
+        "label": "Articles",
         "selected": undefined,
         "url": "/articles",
       },
       {
         "items": [],
-        "label": "(untitled)",
+        "label": "Talks",
         "selected": undefined,
         "url": "/talks",
       },
@@ -355,37 +392,17 @@ exports[`simonmika-com > model.Context.load(/articles) 1`] = `
         "selected": undefined,
         "url": "/about",
       },
-      {
-        "items": [],
-        "label": "Contact",
-        "selected": undefined,
-        "url": "/contact",
-      },
-      {
-        "items": [],
-        "label": "Description",
-        "selected": undefined,
-        "url": "/description",
-      },
-      {
-        "items": [],
-        "label": "Subscribe",
-        "selected": undefined,
-        "url": "/subscribe",
-      },
     ],
   },
-  "title": "Simon Says · ",
+  "title": "Simon Says",
   "url": "https://simonmika.com/articles",
 }
 `;
 
 exports[`simonmika-com > model.Context.load(/articles/abstractions) 1`] = `
 {
-  "base": "https://simonmika.com",
-  "content": {
-    "id": "abstractions",
-    "main": "We humans can in our head only concurrently work with about eight items. If we try to work with significantly more we will lose some items. It is the human equivalent of a stack overflow. Our stack has a maximum depth of about eight. In order to handle more we need to bundle items together into a new item. It is the equivalent of grouping them together in a data structure and putting them into the heap and just store the pointer to it all on the stack.
+  "article": {
+    "content": "We humans can in our head only concurrently work with about eight items. If we try to work with significantly more we will lose some items. It is the human equivalent of a stack overflow. Our stack has a maximum depth of about eight. In order to handle more we need to bundle items together into a new item. It is the equivalent of grouping them together in a data structure and putting them into the heap and just store the pointer to it all on the stack.
 
 We humans can in our head only concurrently work with about eight items. If we try to work with significantly more we will lose some items. It is the human equivalent of a stack overflow. Our stack has a maximum depth of about eight. In order to handle more we need to bundle items together into a new item. It is the equivalent of grouping them together in a data structure and putting them into the heap and just store the pointer to it all on the stack.
 
@@ -397,9 +414,36 @@ Lack of abstractions is the single most common reason for technical debt in soft
 
 When we program we need to spend more time thinking about the bigger picture, how the different parts interact and focus less on how they perform their tasks inside the black box. If we get the first part right the later is a lot easier to fix later. If it even needs fixing.
 ",
+    "header": {
+      "title": "Abstractions",
+    },
+    "id": "abstractions",
     "mode": "full",
-    "summary": "We humans can in our head only concurrently work with about eight items. If we try to work with significantly more we will lose some items. It is the human equivalent of a stack overflow. Our stack ha",
-    "title": "Abstractions",
+  },
+  "base": "https://simonmika.com",
+  "design": {
+    "home": {
+      "mode": "header",
+      "section": "article",
+    },
+    "icon": "/assets/icon/favicon.ico",
+    "list": {
+      "mode": "header",
+    },
+    "logotype": "/assets/img/logotype.svg",
+    "navigation": "header",
+    "scripts": [
+      "//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.6.0/highlight.min.js",
+    ],
+    "styles": [
+      "/assets/css/reset.css",
+      "/assets/css/text.css",
+      "/assets/css/color.css",
+      "/assets/css/layout.css",
+      "/assets/css/form.css",
+      "/assets/css/blockquotes.css",
+      "//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.6.0/styles/default.min.css",
+    ],
   },
   "footer": "Copyright © 2025 Simon Says, All rights reserved",
   "menu": {
@@ -473,13 +517,13 @@ When we program we need to spend more time thinking about the bigger picture, ho
             "url": "/articles/to-live",
           },
         ],
-        "label": "(untitled)",
+        "label": "Articles",
         "selected": undefined,
         "url": "/articles",
       },
       {
         "items": [],
-        "label": "(untitled)",
+        "label": "Talks",
         "selected": undefined,
         "url": "/talks",
       },
@@ -489,37 +533,17 @@ When we program we need to spend more time thinking about the bigger picture, ho
         "selected": undefined,
         "url": "/about",
       },
-      {
-        "items": [],
-        "label": "Contact",
-        "selected": undefined,
-        "url": "/contact",
-      },
-      {
-        "items": [],
-        "label": "Description",
-        "selected": undefined,
-        "url": "/description",
-      },
-      {
-        "items": [],
-        "label": "Subscribe",
-        "selected": undefined,
-        "url": "/subscribe",
-      },
     ],
   },
-  "title": "Simon Says · Abstractions",
+  "title": "Simon Says",
   "url": "https://simonmika.com/articles/abstractions",
 }
 `;
 
 exports[`simonmika-com > model.Context.load(/articles/naming) 1`] = `
 {
-  "base": "https://simonmika.com",
-  "content": {
-    "id": "naming",
-    "main": "The power of _naming_ extends far beyond programming. From ancient myths where knowing something's _true name_ gave power over it, to modern branding where companies spend millions on finding the _right name_, to parents carefully choosing names for their children – our ability to name things shapes how we think and communicate about them.
+  "article": {
+    "content": "The power of _naming_ extends far beyond programming. From ancient myths where knowing something's _true name_ gave power over it, to modern branding where companies spend millions on finding the _right name_, to parents carefully choosing names for their children – our ability to name things shapes how we think and communicate about them.
 
 In software development, this universal human trait becomes _absolutely crucial_. Unlike physical engineering where you can point to concrete objects, programming deals entirely with _mental constructs_ and _abstract concepts_. We can't touch or see our constructs directly – we can only refer to them by name. Almost all concepts programming languages provide to create [abstractions](../abstractions) have one really important thing in common. They all have the ability to _name_ the abstraction. This is among others true for _variables_, _functions_, _classes_ and _namespaces_.
 
@@ -532,9 +556,36 @@ For many problem domains there does not exist a good and stringent enough _nomen
 > By putting more effort into _naming_ you can avoid a lot of _trouble_ and _refactoring_ later.
 
 Getting _naming_ right is one of the really _hard parts_ of programming. It is at the core of why it sometimes is easier to _start over_ from scratch than to incrementally improve code written by others. By putting more effort into the naming you can avoid a lot of trouble and refactoring later.",
+    "header": {
+      "title": "Naming",
+    },
+    "id": "naming",
     "mode": "full",
-    "summary": "The power of _naming_ extends far beyond programming. From ancient myths where knowing something's _true name_ gave power over it, to modern branding where companies spend millions on finding the _rig",
-    "title": "Naming",
+  },
+  "base": "https://simonmika.com",
+  "design": {
+    "home": {
+      "mode": "header",
+      "section": "article",
+    },
+    "icon": "/assets/icon/favicon.ico",
+    "list": {
+      "mode": "header",
+    },
+    "logotype": "/assets/img/logotype.svg",
+    "navigation": "header",
+    "scripts": [
+      "//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.6.0/highlight.min.js",
+    ],
+    "styles": [
+      "/assets/css/reset.css",
+      "/assets/css/text.css",
+      "/assets/css/color.css",
+      "/assets/css/layout.css",
+      "/assets/css/form.css",
+      "/assets/css/blockquotes.css",
+      "//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.6.0/styles/default.min.css",
+    ],
   },
   "footer": "Copyright © 2025 Simon Says, All rights reserved",
   "menu": {
@@ -608,13 +659,13 @@ Getting _naming_ right is one of the really _hard parts_ of programming. It is a
             "url": "/articles/to-live",
           },
         ],
-        "label": "(untitled)",
+        "label": "Articles",
         "selected": undefined,
         "url": "/articles",
       },
       {
         "items": [],
-        "label": "(untitled)",
+        "label": "Talks",
         "selected": undefined,
         "url": "/talks",
       },
@@ -624,40 +675,47 @@ Getting _naming_ right is one of the really _hard parts_ of programming. It is a
         "selected": undefined,
         "url": "/about",
       },
-      {
-        "items": [],
-        "label": "Contact",
-        "selected": undefined,
-        "url": "/contact",
-      },
-      {
-        "items": [],
-        "label": "Description",
-        "selected": undefined,
-        "url": "/description",
-      },
-      {
-        "items": [],
-        "label": "Subscribe",
-        "selected": undefined,
-        "url": "/subscribe",
-      },
     ],
   },
-  "title": "Simon Says · Naming",
+  "title": "Simon Says",
   "url": "https://simonmika.com/articles/naming",
 }
 `;
 
 exports[`simonmika-com > model.Context.load(/articles/to-live) 1`] = `
 {
-  "base": "https://simonmika.com",
-  "content": {
+  "article": {
+    "content": "The requested page was not found.",
+    "header": {
+      "title": "Not Found",
+    },
     "id": "to-live",
-    "main": "The requested page was not found.",
     "mode": "full",
-    "summary": "The requested page was not found.",
-    "title": "Not Found",
+  },
+  "base": "https://simonmika.com",
+  "design": {
+    "home": {
+      "mode": "header",
+      "section": "article",
+    },
+    "icon": "/assets/icon/favicon.ico",
+    "list": {
+      "mode": "header",
+    },
+    "logotype": "/assets/img/logotype.svg",
+    "navigation": "header",
+    "scripts": [
+      "//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.6.0/highlight.min.js",
+    ],
+    "styles": [
+      "/assets/css/reset.css",
+      "/assets/css/text.css",
+      "/assets/css/color.css",
+      "/assets/css/layout.css",
+      "/assets/css/form.css",
+      "/assets/css/blockquotes.css",
+      "//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.6.0/styles/default.min.css",
+    ],
   },
   "footer": "Copyright © 2025 Simon Says, All rights reserved",
   "menu": {
@@ -731,13 +789,13 @@ exports[`simonmika-com > model.Context.load(/articles/to-live) 1`] = `
             "url": "/articles/to-live",
           },
         ],
-        "label": "(untitled)",
+        "label": "Articles",
         "selected": undefined,
         "url": "/articles",
       },
       {
         "items": [],
-        "label": "(untitled)",
+        "label": "Talks",
         "selected": undefined,
         "url": "/talks",
       },
@@ -747,37 +805,17 @@ exports[`simonmika-com > model.Context.load(/articles/to-live) 1`] = `
         "selected": undefined,
         "url": "/about",
       },
-      {
-        "items": [],
-        "label": "Contact",
-        "selected": undefined,
-        "url": "/contact",
-      },
-      {
-        "items": [],
-        "label": "Description",
-        "selected": undefined,
-        "url": "/description",
-      },
-      {
-        "items": [],
-        "label": "Subscribe",
-        "selected": undefined,
-        "url": "/subscribe",
-      },
     ],
   },
-  "title": "Simon Says · Not Found",
+  "title": "Simon Says",
   "url": "https://simonmika.com/articles/to-live",
 }
 `;
 
 exports[`simonmika-com > model.Context.load(/contact) 1`] = `
 {
-  "base": "https://simonmika.com",
-  "content": {
-    "id": "contact",
-    "main": "Don't hesitate to contact me with ideas, suggestions and opinions. I look forward to hear from you.
+  "article": {
+    "content": "Don't hesitate to contact me with ideas, suggestions and opinions. I look forward to hear from you.
 
 <form action="https://getsimpleform.com/messages?form_api_token=5f6ce7baef1b2e89d2be999fdc119828" method="post">
 <input type='hidden' name='redirect_to' value='https://simonmika.com/message-received' />
@@ -790,11 +828,36 @@ exports[`simonmika-com > model.Context.load(/contact) 1`] = `
 <button type="submit">Send</button>
 </form>
 ",
+    "header": {
+      "title": "Contact",
+    },
+    "id": "contact",
     "mode": "full",
-    "summary": "Don't hesitate to contact me with ideas, suggestions and opinions. I look forward to hear from you.
-
-<form action="https://getsimpleform.com/messages?form_api_token=5f6ce7baef1b2e89d2be999fdc119828" m",
-    "title": "Contact",
+  },
+  "base": "https://simonmika.com",
+  "design": {
+    "home": {
+      "mode": "header",
+      "section": "article",
+    },
+    "icon": "/assets/icon/favicon.ico",
+    "list": {
+      "mode": "header",
+    },
+    "logotype": "/assets/img/logotype.svg",
+    "navigation": "header",
+    "scripts": [
+      "//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.6.0/highlight.min.js",
+    ],
+    "styles": [
+      "/assets/css/reset.css",
+      "/assets/css/text.css",
+      "/assets/css/color.css",
+      "/assets/css/layout.css",
+      "/assets/css/form.css",
+      "/assets/css/blockquotes.css",
+      "//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.6.0/styles/default.min.css",
+    ],
   },
   "footer": "Copyright © 2025 Simon Says, All rights reserved",
   "menu": {
@@ -868,13 +931,13 @@ exports[`simonmika-com > model.Context.load(/contact) 1`] = `
             "url": "/articles/to-live",
           },
         ],
-        "label": "(untitled)",
+        "label": "Articles",
         "selected": undefined,
         "url": "/articles",
       },
       {
         "items": [],
-        "label": "(untitled)",
+        "label": "Talks",
         "selected": undefined,
         "url": "/talks",
       },
@@ -884,40 +947,47 @@ exports[`simonmika-com > model.Context.load(/contact) 1`] = `
         "selected": undefined,
         "url": "/about",
       },
-      {
-        "items": [],
-        "label": "Contact",
-        "selected": undefined,
-        "url": "/contact",
-      },
-      {
-        "items": [],
-        "label": "Description",
-        "selected": undefined,
-        "url": "/description",
-      },
-      {
-        "items": [],
-        "label": "Subscribe",
-        "selected": undefined,
-        "url": "/subscribe",
-      },
     ],
   },
-  "title": "Simon Says · Contact",
+  "title": "Simon Says",
   "url": "https://simonmika.com/contact",
 }
 `;
 
 exports[`simonmika-com > model.Context.load(/non-existent) 1`] = `
 {
-  "base": "https://simonmika.com",
-  "content": {
+  "article": {
+    "content": "The requested page was not found.",
+    "header": {
+      "title": "Not Found",
+    },
     "id": "non-existent",
-    "main": "The requested page was not found.",
     "mode": "full",
-    "summary": "The requested page was not found.",
-    "title": "Not Found",
+  },
+  "base": "https://simonmika.com",
+  "design": {
+    "home": {
+      "mode": "header",
+      "section": "article",
+    },
+    "icon": "/assets/icon/favicon.ico",
+    "list": {
+      "mode": "header",
+    },
+    "logotype": "/assets/img/logotype.svg",
+    "navigation": "header",
+    "scripts": [
+      "//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.6.0/highlight.min.js",
+    ],
+    "styles": [
+      "/assets/css/reset.css",
+      "/assets/css/text.css",
+      "/assets/css/color.css",
+      "/assets/css/layout.css",
+      "/assets/css/form.css",
+      "/assets/css/blockquotes.css",
+      "//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.6.0/styles/default.min.css",
+    ],
   },
   "footer": "Copyright © 2025 Simon Says, All rights reserved",
   "menu": {
@@ -991,13 +1061,13 @@ exports[`simonmika-com > model.Context.load(/non-existent) 1`] = `
             "url": "/articles/to-live",
           },
         ],
-        "label": "(untitled)",
+        "label": "Articles",
         "selected": undefined,
         "url": "/articles",
       },
       {
         "items": [],
-        "label": "(untitled)",
+        "label": "Talks",
         "selected": undefined,
         "url": "/talks",
       },
@@ -1007,40 +1077,47 @@ exports[`simonmika-com > model.Context.load(/non-existent) 1`] = `
         "selected": undefined,
         "url": "/about",
       },
-      {
-        "items": [],
-        "label": "Contact",
-        "selected": undefined,
-        "url": "/contact",
-      },
-      {
-        "items": [],
-        "label": "Description",
-        "selected": undefined,
-        "url": "/description",
-      },
-      {
-        "items": [],
-        "label": "Subscribe",
-        "selected": undefined,
-        "url": "/subscribe",
-      },
     ],
   },
-  "title": "Simon Says · Not Found",
+  "title": "Simon Says",
   "url": "https://simonmika.com/non-existent",
 }
 `;
 
 exports[`simonmika-com > model.Context.load(/talks) 1`] = `
 {
-  "base": "https://simonmika.com",
-  "content": {
+  "article": {
+    "content": "",
+    "header": {
+      "title": "Talks",
+    },
     "id": "talks",
-    "main": "",
     "mode": "full",
-    "summary": "",
-    "title": "(untitled)",
+  },
+  "base": "https://simonmika.com",
+  "design": {
+    "home": {
+      "mode": "header",
+      "section": "article",
+    },
+    "icon": "/assets/icon/favicon.ico",
+    "list": {
+      "mode": "header",
+    },
+    "logotype": "/assets/img/logotype.svg",
+    "navigation": "header",
+    "scripts": [
+      "//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.6.0/highlight.min.js",
+    ],
+    "styles": [
+      "/assets/css/reset.css",
+      "/assets/css/text.css",
+      "/assets/css/color.css",
+      "/assets/css/layout.css",
+      "/assets/css/form.css",
+      "/assets/css/blockquotes.css",
+      "//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.6.0/styles/default.min.css",
+    ],
   },
   "footer": "Copyright © 2025 Simon Says, All rights reserved",
   "menu": {
@@ -1114,13 +1191,13 @@ exports[`simonmika-com > model.Context.load(/talks) 1`] = `
             "url": "/articles/to-live",
           },
         ],
-        "label": "(untitled)",
+        "label": "Articles",
         "selected": undefined,
         "url": "/articles",
       },
       {
         "items": [],
-        "label": "(untitled)",
+        "label": "Talks",
         "selected": undefined,
         "url": "/talks",
       },
@@ -1130,27 +1207,9 @@ exports[`simonmika-com > model.Context.load(/talks) 1`] = `
         "selected": undefined,
         "url": "/about",
       },
-      {
-        "items": [],
-        "label": "Contact",
-        "selected": undefined,
-        "url": "/contact",
-      },
-      {
-        "items": [],
-        "label": "Description",
-        "selected": undefined,
-        "url": "/description",
-      },
-      {
-        "items": [],
-        "label": "Subscribe",
-        "selected": undefined,
-        "url": "/subscribe",
-      },
     ],
   },
-  "title": "Simon Says · ",
+  "title": "Simon Says",
   "url": "https://simonmika.com/talks",
 }
 `;

@@ -1,12 +1,14 @@
 import { FunctionalComponent, h } from "@stencil/core"
+import { Article } from "./Article"
+import { model } from "../model"
 
-export const List: FunctionalComponent<List.Properties> = ({ summary }) => (
-	<main class="summary">
-		<p>{summary}</p>
+export const List: FunctionalComponent<List.Properties> = ({ article }) => (
+	<main class="list">
+		<Article {...article} />
 	</main>
 )
 export namespace List {
 	export interface Properties {
-		summary: string
+		article: model.Context.Article
 	}
 }

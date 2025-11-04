@@ -1,0 +1,69 @@
+/* Black on White */
+body > binotype-site {
+	color: #2e3436;
+	background: #eeeeec;
+}
+body > binotype-site > header > h1 > a,
+body > binotype-site > header > h1 > a:visited,
+body > binotype-site > header > h1 > a:hover,
+body > binotype-site > main > footer > nav > ul > li > a:hover,
+body > binotype-site > main > footer > nav > ul > li.disabled > a,
+body > binotype-site > main > footer > nav > ul > li.disabled > a:visited,
+body > binotype-site > main > footer > nav > ul > li.active > a,
+body > binotype-site > main > footer > nav > ul > li.active > a:visited {
+	color: inherit;
+	background: inherit;
+}
+body > binotype-site > header > nav a,
+bady > header > nav a:visited,
+body > binotype-site > main > footer > nav > ul > li > a,
+body > binotype-site > main > footer > nav > ul > li > a:visited,
+body > binotype-site > main > article > main a,
+body > binotype-site > main > article > main a:visited,
+body > binotype-site > main > article > main a:hover {
+	color: #a40000;
+}
+/* White on Red */
+body > binotype-site > main > article:first-child > header,
+body > binotype-site > main.list > article:hover > header {
+	color: #eeeeec;
+	background: #a40000;
+}
+body > binotype-site > main > *:first-child > header > a,
+body > binotype-site > main > *:first-child > header > a:visited {
+	color: inherit;
+	background: inherit;
+}
+/* White on Black */
+body > binotype-site > header > nav li > a:hover,
+body > binotype-site > main.list > article:hover > header {
+	color: #eeeeec;
+	background: #2e3436;
+}
+/* Grey on Black */
+body > binotype-site > footer {
+	color: #babdb6;
+	background: #2e3436;
+}
+body > binotype-site > footer a,
+body > binotype-site > footer a:visited {
+	color: inherit;
+	background: inherit;
+}
+body > binotype-site > footer a:hover,
+body > binotype-site > footer > main > article:hover {
+	color: #eeeeec;
+}
+/* Grey */
+body > binotype-site > footer > nav {
+	border-bottom: solid 1px #babdb6;
+}
+@media screen and (min-width: 640px) {
+	body > binotype-site > footer > nav {
+		border-bottom: none;
+	}
+	body > binotype-site > main,
+	body > binotype-site > footer > main {
+		border-left: solid 1px #babdb6;
+	}
+}

@@ -4,6 +4,7 @@ import { Section } from "../Section"
 export interface Page {
 	weight?: number
 	title?: string
+	menu?: false
 	date?: isoly.Date
 	tags?: string[]
 	draft?: boolean

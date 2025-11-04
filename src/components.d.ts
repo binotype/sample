@@ -5,33 +5,37 @@
  * It contains typing information for all components that exist in this project.
  */
 import { HTMLStencilElement, JSXBase } from "@stencil/core/internal";
+import { model } from "./model";
+export { model } from "./model";
 export namespace Components {
-    interface BinotypeSample {
+    interface BinotypeSite {
+        "site"?: model.Site | string;
     }
 }
 declare global {
-    interface HTMLBinotypeSampleElement extends Components.BinotypeSample, HTMLStencilElement {
+    interface HTMLBinotypeSiteElement extends Components.BinotypeSite, HTMLStencilElement {
     }
-    var HTMLBinotypeSampleElement: {
-        prototype: HTMLBinotypeSampleElement;
-        new (): HTMLBinotypeSampleElement;
+    var HTMLBinotypeSiteElement: {
+        prototype: HTMLBinotypeSiteElement;
+        new (): HTMLBinotypeSiteElement;
     };
     interface HTMLElementTagNameMap {
-        "binotype-sample": HTMLBinotypeSampleElement;
+        "binotype-site": HTMLBinotypeSiteElement;
     }
 }
 declare namespace LocalJSX {
-    interface BinotypeSample {
+    interface BinotypeSite {
+        "site"?: model.Site | string;
     }
     interface IntrinsicElements {
-        "binotype-sample": BinotypeSample;
+        "binotype-site": BinotypeSite;
     }
 }
 export { LocalJSX as JSX };
 declare module "@stencil/core" {
     export namespace JSX {
         interface IntrinsicElements {
-            "binotype-sample": LocalJSX.BinotypeSample & JSXBase.HTMLAttributes<HTMLBinotypeSampleElement>;
+            "binotype-site": LocalJSX.BinotypeSite & JSXBase.HTMLAttributes<HTMLBinotypeSiteElement>;
         }
     }
 }
