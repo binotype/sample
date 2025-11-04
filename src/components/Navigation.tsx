@@ -1,12 +1,14 @@
 import { FunctionalComponent, h } from "@stencil/core"
+import { model } from "../model"
+import { Menu } from "./Menu"
 
-export const Navigation: FunctionalComponent<Navigation.Properties> = ({ summary }) => (
-	<main class="summary">
-		<p>{summary}</p>
-	</main>
+export const Navigation: FunctionalComponent<Navigation.Properties> = ({ items }) => (
+	<nav>
+		<Menu items={items} />
+	</nav>
 )
 export namespace Navigation {
 	export interface Properties {
-		summary: string
+		items: model.Context.Menu.Item[]
 	}
 }

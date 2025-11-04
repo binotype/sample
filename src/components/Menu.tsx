@@ -1,11 +1,11 @@
 import { FunctionalComponent, h } from "@stencil/core"
 
-export const Menu: FunctionalComponent<Menu.Properties> = ({ menu }) => (
+export const Menu: FunctionalComponent<Menu.Properties> = ({ items }) => (
 	<ul>
-		{menu.map(item => (
+		{items.map(item => (
 			<li class={item.selected == "current" ? "current" : item.selected == "parent" ? "current-parent" : ""}>
-				<a href={item.url}>{item.name}</a>
-				{item.children && <Menu menu={item.children} />}
+				<a href={item.url}>{item.label}</a>
+				{item.items && <Menu items={item.items} />}
 			</li>
 		))}
 	</ul>
@@ -13,11 +13,11 @@ export const Menu: FunctionalComponent<Menu.Properties> = ({ menu }) => (
 
 export namespace Menu {
 	export interface Properties {
-		menu: {
-			name: string
+		items: {
+			label: string
 			url: string
 			selected?: "current" | "parent"
-			children?: Properties["menu"]
+			items?: Properties["items"]
 		}[]
 	}
 }
