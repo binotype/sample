@@ -15,6 +15,6 @@ export namespace Page {
 		return path.length == 0 ? page : page.pages ? locate(page.pages[path[0]], path.slice(1)) : undefined
 	}
 	export function getTitle(page: Page): string {
-		return page.title ?? "untitled"
+		return page.title ?? "(untitled)"
 	}
 }

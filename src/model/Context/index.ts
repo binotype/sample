@@ -5,6 +5,7 @@ import { Menu as _Menu } from "./Menu"
 
 export interface Context {
 	title: string
+	base: string
 	url: string
 	menu: Context.Menu
 	content: Context.Content
@@ -21,13 +22,13 @@ export namespace Context {
 		}
 		return {
 			title: `${site.title} · ${page?.title ?? ""}`,
-			url: site.url,
+			base: site.url,
+			url: site.url + "/" + path,
 			menu: Menu.load(site, path),
 			content: {
-				id: path,
 				mode: "full",
 				title: page?.title ?? "(untitled)",
-				summary: page.content ? String(page.content).slice(0, 200) : "" + "...",
+				summary: page.content ? String(page.content).slice(0, 200) : "",
 				content: String(page.content ?? ""),
 			},
 			footer: `Copyright © ${new Date().getFullYear()} ${site.title}, All rights reserved`,

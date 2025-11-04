@@ -2,9 +2,9 @@
 
 exports[`simonmika-com > model.Context.load() 1`] = `
 {
+  "base": "https://simonmika.com",
   "content": {
     "content": "The requested page was not found.",
-    "id": "",
     "mode": "full",
     "summary": "The requested page was not found.",
     "title": "Not Found",
@@ -24,7 +24,7 @@ exports[`simonmika-com > model.Context.load() 1`] = `
             "items": [],
             "label": "CSS is Still Broken",
             "selected": undefined,
-            "url": "https://simonmika.com/articles/cssBroken",
+            "url": "https://simonmika.com/articles/css-broken",
           },
           {
             "items": [],
@@ -36,58 +36,58 @@ exports[`simonmika-com > model.Context.load() 1`] = `
             "items": [],
             "label": "Optimizing Databases",
             "selected": undefined,
-            "url": "https://simonmika.com/articles/optimizingDatabases",
+            "url": "https://simonmika.com/articles/optimizing-databases",
           },
           {
             "items": [],
             "label": "Optimizing Execution Speed",
             "selected": undefined,
-            "url": "https://simonmika.com/articles/optimizingExecutionSpeed",
+            "url": "https://simonmika.com/articles/optimizing-execution-speed",
           },
           {
             "items": [],
             "label": "Optimizing Software",
             "selected": undefined,
-            "url": "https://simonmika.com/articles/optimizingSoftware",
+            "url": "https://simonmika.com/articles/optimizing-software",
           },
           {
             "items": [],
             "label": "The Programming Interview",
             "selected": undefined,
-            "url": "https://simonmika.com/articles/programmingInterview",
+            "url": "https://simonmika.com/articles/programming-interview",
           },
           {
             "items": [],
             "label": "Recruiting Process",
             "selected": undefined,
-            "url": "https://simonmika.com/articles/recruitingProcess",
+            "url": "https://simonmika.com/articles/recruiting-process",
           },
           {
             "items": [],
             "label": "Rock Star Programmers",
             "selected": undefined,
-            "url": "https://simonmika.com/articles/rockStarProgrammers",
+            "url": "https://simonmika.com/articles/rock-star-programmers",
           },
           {
             "items": [],
             "label": "Taking Risk When Dying",
             "selected": undefined,
-            "url": "https://simonmika.com/articles/takingRiskWhenDying",
+            "url": "https://simonmika.com/articles/taking-risk-when-dying",
           },
           {
             "items": [],
             "label": "To Live",
             "selected": undefined,
-            "url": "https://simonmika.com/articles/toLive",
+            "url": "https://simonmika.com/articles/to-live",
           },
         ],
-        "label": "untitled",
+        "label": "(untitled)",
         "selected": undefined,
         "url": "https://simonmika.com/articles",
       },
       {
         "items": [],
-        "label": "untitled",
+        "label": "(untitled)",
         "selected": undefined,
         "url": "https://simonmika.com/talks",
       },
@@ -118,12 +118,13 @@ exports[`simonmika-com > model.Context.load() 1`] = `
     ],
   },
   "title": "Simon Says · Not Found",
-  "url": "https://simonmika.com",
+  "url": "https://simonmika.com/",
 }
 `;
 
 exports[`simonmika-com > model.Context.load(about) 1`] = `
 {
+  "base": "https://simonmika.com",
   "content": {
     "content": "I am Simon Mika, and I create things. Professionally I create software products. Either hands on or by creating the organization that builds the products.
 
@@ -135,7 +136,6 @@ Currently, I help companies as a consultant with everything from software archit
 
 You can find out more about me on my page on [LinkedIn](https://se.linkedin.com/in/simonmika) and on [GitHub](https://github.com/simonmika).
 ",
-    "id": "about",
     "mode": "full",
     "summary": "I am Simon Mika, and I create things. Professionally I create software products. Either hands on or by creating the organization that builds the products.
 
@@ -157,7 +157,7 @@ I live in Uppsala, Sweden with my wife Sanna",
             "items": [],
             "label": "CSS is Still Broken",
             "selected": undefined,
-            "url": "https://simonmika.com/articles/cssBroken",
+            "url": "https://simonmika.com/articles/css-broken",
           },
           {
             "items": [],
@@ -169,65 +169,65 @@ I live in Uppsala, Sweden with my wife Sanna",
             "items": [],
             "label": "Optimizing Databases",
             "selected": undefined,
-            "url": "https://simonmika.com/articles/optimizingDatabases",
+            "url": "https://simonmika.com/articles/optimizing-databases",
           },
           {
             "items": [],
             "label": "Optimizing Execution Speed",
             "selected": undefined,
-            "url": "https://simonmika.com/articles/optimizingExecutionSpeed",
+            "url": "https://simonmika.com/articles/optimizing-execution-speed",
           },
           {
             "items": [],
             "label": "Optimizing Software",
             "selected": undefined,
-            "url": "https://simonmika.com/articles/optimizingSoftware",
+            "url": "https://simonmika.com/articles/optimizing-software",
           },
           {
             "items": [],
             "label": "The Programming Interview",
             "selected": undefined,
-            "url": "https://simonmika.com/articles/programmingInterview",
+            "url": "https://simonmika.com/articles/programming-interview",
           },
           {
             "items": [],
             "label": "Recruiting Process",
             "selected": undefined,
-            "url": "https://simonmika.com/articles/recruitingProcess",
+            "url": "https://simonmika.com/articles/recruiting-process",
           },
           {
             "items": [],
             "label": "Rock Star Programmers",
             "selected": undefined,
-            "url": "https://simonmika.com/articles/rockStarProgrammers",
+            "url": "https://simonmika.com/articles/rock-star-programmers",
           },
           {
             "items": [],
             "label": "Taking Risk When Dying",
             "selected": undefined,
-            "url": "https://simonmika.com/articles/takingRiskWhenDying",
+            "url": "https://simonmika.com/articles/taking-risk-when-dying",
           },
           {
             "items": [],
             "label": "To Live",
             "selected": undefined,
-            "url": "https://simonmika.com/articles/toLive",
+            "url": "https://simonmika.com/articles/to-live",
           },
         ],
-        "label": "untitled",
+        "label": "(untitled)",
         "selected": undefined,
         "url": "https://simonmika.com/articles",
       },
       {
         "items": [],
-        "label": "untitled",
+        "label": "(untitled)",
         "selected": undefined,
         "url": "https://simonmika.com/talks",
       },
       {
         "items": [],
         "label": "About",
-        "selected": undefined,
+        "selected": "current",
         "url": "https://simonmika.com/about",
       },
       {
@@ -251,17 +251,17 @@ I live in Uppsala, Sweden with my wife Sanna",
     ],
   },
   "title": "Simon Says · About",
-  "url": "https://simonmika.com",
+  "url": "https://simonmika.com/about",
 }
 `;
 
 exports[`simonmika-com > model.Context.load(articles) 1`] = `
 {
+  "base": "https://simonmika.com",
   "content": {
     "content": "",
-    "id": "articles",
     "mode": "full",
-    "summary": "...",
+    "summary": "",
     "title": "(untitled)",
   },
   "footer": "Copyright © 2025 Simon Says, All rights reserved",
@@ -279,7 +279,7 @@ exports[`simonmika-com > model.Context.load(articles) 1`] = `
             "items": [],
             "label": "CSS is Still Broken",
             "selected": undefined,
-            "url": "https://simonmika.com/articles/cssBroken",
+            "url": "https://simonmika.com/articles/css-broken",
           },
           {
             "items": [],
@@ -291,58 +291,58 @@ exports[`simonmika-com > model.Context.load(articles) 1`] = `
             "items": [],
             "label": "Optimizing Databases",
             "selected": undefined,
-            "url": "https://simonmika.com/articles/optimizingDatabases",
+            "url": "https://simonmika.com/articles/optimizing-databases",
           },
           {
             "items": [],
             "label": "Optimizing Execution Speed",
             "selected": undefined,
-            "url": "https://simonmika.com/articles/optimizingExecutionSpeed",
+            "url": "https://simonmika.com/articles/optimizing-execution-speed",
           },
           {
             "items": [],
             "label": "Optimizing Software",
             "selected": undefined,
-            "url": "https://simonmika.com/articles/optimizingSoftware",
+            "url": "https://simonmika.com/articles/optimizing-software",
           },
           {
             "items": [],
             "label": "The Programming Interview",
             "selected": undefined,
-            "url": "https://simonmika.com/articles/programmingInterview",
+            "url": "https://simonmika.com/articles/programming-interview",
           },
           {
             "items": [],
             "label": "Recruiting Process",
             "selected": undefined,
-            "url": "https://simonmika.com/articles/recruitingProcess",
+            "url": "https://simonmika.com/articles/recruiting-process",
           },
           {
             "items": [],
             "label": "Rock Star Programmers",
             "selected": undefined,
-            "url": "https://simonmika.com/articles/rockStarProgrammers",
+            "url": "https://simonmika.com/articles/rock-star-programmers",
           },
           {
             "items": [],
             "label": "Taking Risk When Dying",
             "selected": undefined,
-            "url": "https://simonmika.com/articles/takingRiskWhenDying",
+            "url": "https://simonmika.com/articles/taking-risk-when-dying",
           },
           {
             "items": [],
             "label": "To Live",
             "selected": undefined,
-            "url": "https://simonmika.com/articles/toLive",
+            "url": "https://simonmika.com/articles/to-live",
           },
         ],
-        "label": "untitled",
-        "selected": undefined,
+        "label": "(untitled)",
+        "selected": "current",
         "url": "https://simonmika.com/articles",
       },
       {
         "items": [],
-        "label": "untitled",
+        "label": "(untitled)",
         "selected": undefined,
         "url": "https://simonmika.com/talks",
       },
@@ -373,12 +373,13 @@ exports[`simonmika-com > model.Context.load(articles) 1`] = `
     ],
   },
   "title": "Simon Says · ",
-  "url": "https://simonmika.com",
+  "url": "https://simonmika.com/articles",
 }
 `;
 
 exports[`simonmika-com > model.Context.load(articles/abstractions) 1`] = `
 {
+  "base": "https://simonmika.com",
   "content": {
     "content": "We humans can in our head only concurrently work with about eight items. If we try to work with significantly more we will lose some items. It is the human equivalent of a stack overflow. Our stack has a maximum depth of about eight. In order to handle more we need to bundle items together into a new item. It is the equivalent of grouping them together in a data structure and putting them into the heap and just store the pointer to it all on the stack.
 
@@ -392,7 +393,6 @@ Lack of abstractions is the single most common reason for technical debt in soft
 
 When we program we need to spend more time thinking about the bigger picture, how the different parts interact and focus less on how they perform their tasks inside the black box. If we get the first part right the later is a lot easier to fix later. If it even needs fixing.
 ",
-    "id": "articles/abstractions",
     "mode": "full",
     "summary": "We humans can in our head only concurrently work with about eight items. If we try to work with significantly more we will lose some items. It is the human equivalent of a stack overflow. Our stack ha",
     "title": "Abstractions",
@@ -405,14 +405,14 @@ When we program we need to spend more time thinking about the bigger picture, ho
           {
             "items": [],
             "label": "Abstractions",
-            "selected": undefined,
+            "selected": "current",
             "url": "https://simonmika.com/articles/abstractions",
           },
           {
             "items": [],
             "label": "CSS is Still Broken",
             "selected": undefined,
-            "url": "https://simonmika.com/articles/cssBroken",
+            "url": "https://simonmika.com/articles/css-broken",
           },
           {
             "items": [],
@@ -424,58 +424,58 @@ When we program we need to spend more time thinking about the bigger picture, ho
             "items": [],
             "label": "Optimizing Databases",
             "selected": undefined,
-            "url": "https://simonmika.com/articles/optimizingDatabases",
+            "url": "https://simonmika.com/articles/optimizing-databases",
           },
           {
             "items": [],
             "label": "Optimizing Execution Speed",
             "selected": undefined,
-            "url": "https://simonmika.com/articles/optimizingExecutionSpeed",
+            "url": "https://simonmika.com/articles/optimizing-execution-speed",
           },
           {
             "items": [],
             "label": "Optimizing Software",
             "selected": undefined,
-            "url": "https://simonmika.com/articles/optimizingSoftware",
+            "url": "https://simonmika.com/articles/optimizing-software",
           },
           {
             "items": [],
             "label": "The Programming Interview",
             "selected": undefined,
-            "url": "https://simonmika.com/articles/programmingInterview",
+            "url": "https://simonmika.com/articles/programming-interview",
           },
           {
             "items": [],
             "label": "Recruiting Process",
             "selected": undefined,
-            "url": "https://simonmika.com/articles/recruitingProcess",
+            "url": "https://simonmika.com/articles/recruiting-process",
           },
           {
             "items": [],
             "label": "Rock Star Programmers",
             "selected": undefined,
-            "url": "https://simonmika.com/articles/rockStarProgrammers",
+            "url": "https://simonmika.com/articles/rock-star-programmers",
           },
           {
             "items": [],
             "label": "Taking Risk When Dying",
             "selected": undefined,
-            "url": "https://simonmika.com/articles/takingRiskWhenDying",
+            "url": "https://simonmika.com/articles/taking-risk-when-dying",
           },
           {
             "items": [],
             "label": "To Live",
             "selected": undefined,
-            "url": "https://simonmika.com/articles/toLive",
+            "url": "https://simonmika.com/articles/to-live",
           },
         ],
-        "label": "untitled",
-        "selected": undefined,
+        "label": "(untitled)",
+        "selected": "parent",
         "url": "https://simonmika.com/articles",
       },
       {
         "items": [],
-        "label": "untitled",
+        "label": "(untitled)",
         "selected": undefined,
         "url": "https://simonmika.com/talks",
       },
@@ -506,12 +506,13 @@ When we program we need to spend more time thinking about the bigger picture, ho
     ],
   },
   "title": "Simon Says · Abstractions",
-  "url": "https://simonmika.com",
+  "url": "https://simonmika.com/articles/abstractions",
 }
 `;
 
 exports[`simonmika-com > model.Context.load(articles/naming) 1`] = `
 {
+  "base": "https://simonmika.com",
   "content": {
     "content": "The power of _naming_ extends far beyond programming. From ancient myths where knowing something's _true name_ gave power over it, to modern branding where companies spend millions on finding the _right name_, to parents carefully choosing names for their children – our ability to name things shapes how we think and communicate about them.
 
@@ -526,7 +527,6 @@ For many problem domains there does not exist a good and stringent enough _nomen
 > By putting more effort into _naming_ you can avoid a lot of _trouble_ and _refactoring_ later.
 
 Getting _naming_ right is one of the really _hard parts_ of programming. It is at the core of why it sometimes is easier to _start over_ from scratch than to incrementally improve code written by others. By putting more effort into the naming you can avoid a lot of trouble and refactoring later.",
-    "id": "articles/naming",
     "mode": "full",
     "summary": "The power of _naming_ extends far beyond programming. From ancient myths where knowing something's _true name_ gave power over it, to modern branding where companies spend millions on finding the _rig",
     "title": "Naming",
@@ -546,70 +546,70 @@ Getting _naming_ right is one of the really _hard parts_ of programming. It is a
             "items": [],
             "label": "CSS is Still Broken",
             "selected": undefined,
-            "url": "https://simonmika.com/articles/cssBroken",
+            "url": "https://simonmika.com/articles/css-broken",
           },
           {
             "items": [],
             "label": "Naming",
-            "selected": undefined,
+            "selected": "current",
             "url": "https://simonmika.com/articles/naming",
           },
           {
             "items": [],
             "label": "Optimizing Databases",
             "selected": undefined,
-            "url": "https://simonmika.com/articles/optimizingDatabases",
+            "url": "https://simonmika.com/articles/optimizing-databases",
           },
           {
             "items": [],
             "label": "Optimizing Execution Speed",
             "selected": undefined,
-            "url": "https://simonmika.com/articles/optimizingExecutionSpeed",
+            "url": "https://simonmika.com/articles/optimizing-execution-speed",
           },
           {
             "items": [],
             "label": "Optimizing Software",
             "selected": undefined,
-            "url": "https://simonmika.com/articles/optimizingSoftware",
+            "url": "https://simonmika.com/articles/optimizing-software",
           },
           {
             "items": [],
             "label": "The Programming Interview",
             "selected": undefined,
-            "url": "https://simonmika.com/articles/programmingInterview",
+            "url": "https://simonmika.com/articles/programming-interview",
           },
           {
             "items": [],
             "label": "Recruiting Process",
             "selected": undefined,
-            "url": "https://simonmika.com/articles/recruitingProcess",
+            "url": "https://simonmika.com/articles/recruiting-process",
           },
           {
             "items": [],
             "label": "Rock Star Programmers",
             "selected": undefined,
-            "url": "https://simonmika.com/articles/rockStarProgrammers",
+            "url": "https://simonmika.com/articles/rock-star-programmers",
           },
           {
             "items": [],
             "label": "Taking Risk When Dying",
             "selected": undefined,
-            "url": "https://simonmika.com/articles/takingRiskWhenDying",
+            "url": "https://simonmika.com/articles/taking-risk-when-dying",
           },
           {
             "items": [],
             "label": "To Live",
             "selected": undefined,
-            "url": "https://simonmika.com/articles/toLive",
+            "url": "https://simonmika.com/articles/to-live",
           },
         ],
-        "label": "untitled",
-        "selected": undefined,
+        "label": "(untitled)",
+        "selected": "parent",
         "url": "https://simonmika.com/articles",
       },
       {
         "items": [],
-        "label": "untitled",
+        "label": "(untitled)",
         "selected": undefined,
         "url": "https://simonmika.com/talks",
       },
@@ -640,15 +640,15 @@ Getting _naming_ right is one of the really _hard parts_ of programming. It is a
     ],
   },
   "title": "Simon Says · Naming",
-  "url": "https://simonmika.com",
+  "url": "https://simonmika.com/articles/naming",
 }
 `;
 
 exports[`simonmika-com > model.Context.load(articles/to-live) 1`] = `
 {
+  "base": "https://simonmika.com",
   "content": {
     "content": "The requested page was not found.",
-    "id": "articles/to-live",
     "mode": "full",
     "summary": "The requested page was not found.",
     "title": "Not Found",
@@ -668,7 +668,7 @@ exports[`simonmika-com > model.Context.load(articles/to-live) 1`] = `
             "items": [],
             "label": "CSS is Still Broken",
             "selected": undefined,
-            "url": "https://simonmika.com/articles/cssBroken",
+            "url": "https://simonmika.com/articles/css-broken",
           },
           {
             "items": [],
@@ -680,58 +680,58 @@ exports[`simonmika-com > model.Context.load(articles/to-live) 1`] = `
             "items": [],
             "label": "Optimizing Databases",
             "selected": undefined,
-            "url": "https://simonmika.com/articles/optimizingDatabases",
+            "url": "https://simonmika.com/articles/optimizing-databases",
           },
           {
             "items": [],
             "label": "Optimizing Execution Speed",
             "selected": undefined,
-            "url": "https://simonmika.com/articles/optimizingExecutionSpeed",
+            "url": "https://simonmika.com/articles/optimizing-execution-speed",
           },
           {
             "items": [],
             "label": "Optimizing Software",
             "selected": undefined,
-            "url": "https://simonmika.com/articles/optimizingSoftware",
+            "url": "https://simonmika.com/articles/optimizing-software",
           },
           {
             "items": [],
             "label": "The Programming Interview",
             "selected": undefined,
-            "url": "https://simonmika.com/articles/programmingInterview",
+            "url": "https://simonmika.com/articles/programming-interview",
           },
           {
             "items": [],
             "label": "Recruiting Process",
             "selected": undefined,
-            "url": "https://simonmika.com/articles/recruitingProcess",
+            "url": "https://simonmika.com/articles/recruiting-process",
           },
           {
             "items": [],
             "label": "Rock Star Programmers",
             "selected": undefined,
-            "url": "https://simonmika.com/articles/rockStarProgrammers",
+            "url": "https://simonmika.com/articles/rock-star-programmers",
           },
           {
             "items": [],
             "label": "Taking Risk When Dying",
             "selected": undefined,
-            "url": "https://simonmika.com/articles/takingRiskWhenDying",
+            "url": "https://simonmika.com/articles/taking-risk-when-dying",
           },
           {
             "items": [],
             "label": "To Live",
-            "selected": undefined,
-            "url": "https://simonmika.com/articles/toLive",
+            "selected": "current",
+            "url": "https://simonmika.com/articles/to-live",
           },
         ],
-        "label": "untitled",
-        "selected": undefined,
+        "label": "(untitled)",
+        "selected": "parent",
         "url": "https://simonmika.com/articles",
       },
       {
         "items": [],
-        "label": "untitled",
+        "label": "(untitled)",
         "selected": undefined,
         "url": "https://simonmika.com/talks",
       },
@@ -762,12 +762,13 @@ exports[`simonmika-com > model.Context.load(articles/to-live) 1`] = `
     ],
   },
   "title": "Simon Says · Not Found",
-  "url": "https://simonmika.com",
+  "url": "https://simonmika.com/articles/to-live",
 }
 `;
 
 exports[`simonmika-com > model.Context.load(contact) 1`] = `
 {
+  "base": "https://simonmika.com",
   "content": {
     "content": "Don't hesitate to contact me with ideas, suggestions and opinions. I look forward to hear from you.
 
@@ -782,7 +783,6 @@ exports[`simonmika-com > model.Context.load(contact) 1`] = `
 <button type="submit">Send</button>
 </form>
 ",
-    "id": "contact",
     "mode": "full",
     "summary": "Don't hesitate to contact me with ideas, suggestions and opinions. I look forward to hear from you.
 
@@ -804,7 +804,7 @@ exports[`simonmika-com > model.Context.load(contact) 1`] = `
             "items": [],
             "label": "CSS is Still Broken",
             "selected": undefined,
-            "url": "https://simonmika.com/articles/cssBroken",
+            "url": "https://simonmika.com/articles/css-broken",
           },
           {
             "items": [],
@@ -816,58 +816,58 @@ exports[`simonmika-com > model.Context.load(contact) 1`] = `
             "items": [],
             "label": "Optimizing Databases",
             "selected": undefined,
-            "url": "https://simonmika.com/articles/optimizingDatabases",
+            "url": "https://simonmika.com/articles/optimizing-databases",
           },
           {
             "items": [],
             "label": "Optimizing Execution Speed",
             "selected": undefined,
-            "url": "https://simonmika.com/articles/optimizingExecutionSpeed",
+            "url": "https://simonmika.com/articles/optimizing-execution-speed",
           },
           {
             "items": [],
             "label": "Optimizing Software",
             "selected": undefined,
-            "url": "https://simonmika.com/articles/optimizingSoftware",
+            "url": "https://simonmika.com/articles/optimizing-software",
           },
           {
             "items": [],
             "label": "The Programming Interview",
             "selected": undefined,
-            "url": "https://simonmika.com/articles/programmingInterview",
+            "url": "https://simonmika.com/articles/programming-interview",
           },
           {
             "items": [],
             "label": "Recruiting Process",
             "selected": undefined,
-            "url": "https://simonmika.com/articles/recruitingProcess",
+            "url": "https://simonmika.com/articles/recruiting-process",
           },
           {
             "items": [],
             "label": "Rock Star Programmers",
             "selected": undefined,
-            "url": "https://simonmika.com/articles/rockStarProgrammers",
+            "url": "https://simonmika.com/articles/rock-star-programmers",
           },
           {
             "items": [],
             "label": "Taking Risk When Dying",
             "selected": undefined,
-            "url": "https://simonmika.com/articles/takingRiskWhenDying",
+            "url": "https://simonmika.com/articles/taking-risk-when-dying",
           },
           {
             "items": [],
             "label": "To Live",
             "selected": undefined,
-            "url": "https://simonmika.com/articles/toLive",
+            "url": "https://simonmika.com/articles/to-live",
           },
         ],
-        "label": "untitled",
+        "label": "(untitled)",
         "selected": undefined,
         "url": "https://simonmika.com/articles",
       },
       {
         "items": [],
-        "label": "untitled",
+        "label": "(untitled)",
         "selected": undefined,
         "url": "https://simonmika.com/talks",
       },
@@ -880,7 +880,7 @@ exports[`simonmika-com > model.Context.load(contact) 1`] = `
       {
         "items": [],
         "label": "Contact",
-        "selected": undefined,
+        "selected": "current",
         "url": "https://simonmika.com/contact",
       },
       {
@@ -898,15 +898,15 @@ exports[`simonmika-com > model.Context.load(contact) 1`] = `
     ],
   },
   "title": "Simon Says · Contact",
-  "url": "https://simonmika.com",
+  "url": "https://simonmika.com/contact",
 }
 `;
 
 exports[`simonmika-com > model.Context.load(non-existent) 1`] = `
 {
+  "base": "https://simonmika.com",
   "content": {
     "content": "The requested page was not found.",
-    "id": "non-existent",
     "mode": "full",
     "summary": "The requested page was not found.",
     "title": "Not Found",
@@ -926,7 +926,7 @@ exports[`simonmika-com > model.Context.load(non-existent) 1`] = `
             "items": [],
             "label": "CSS is Still Broken",
             "selected": undefined,
-            "url": "https://simonmika.com/articles/cssBroken",
+            "url": "https://simonmika.com/articles/css-broken",
           },
           {
             "items": [],
@@ -938,58 +938,58 @@ exports[`simonmika-com > model.Context.load(non-existent) 1`] = `
             "items": [],
             "label": "Optimizing Databases",
             "selected": undefined,
-            "url": "https://simonmika.com/articles/optimizingDatabases",
+            "url": "https://simonmika.com/articles/optimizing-databases",
           },
           {
             "items": [],
             "label": "Optimizing Execution Speed",
             "selected": undefined,
-            "url": "https://simonmika.com/articles/optimizingExecutionSpeed",
+            "url": "https://simonmika.com/articles/optimizing-execution-speed",
           },
           {
             "items": [],
             "label": "Optimizing Software",
             "selected": undefined,
-            "url": "https://simonmika.com/articles/optimizingSoftware",
+            "url": "https://simonmika.com/articles/optimizing-software",
           },
           {
             "items": [],
             "label": "The Programming Interview",
             "selected": undefined,
-            "url": "https://simonmika.com/articles/programmingInterview",
+            "url": "https://simonmika.com/articles/programming-interview",
           },
           {
             "items": [],
             "label": "Recruiting Process",
             "selected": undefined,
-            "url": "https://simonmika.com/articles/recruitingProcess",
+            "url": "https://simonmika.com/articles/recruiting-process",
           },
           {
             "items": [],
             "label": "Rock Star Programmers",
             "selected": undefined,
-            "url": "https://simonmika.com/articles/rockStarProgrammers",
+            "url": "https://simonmika.com/articles/rock-star-programmers",
           },
           {
             "items": [],
             "label": "Taking Risk When Dying",
             "selected": undefined,
-            "url": "https://simonmika.com/articles/takingRiskWhenDying",
+            "url": "https://simonmika.com/articles/taking-risk-when-dying",
           },
           {
             "items": [],
             "label": "To Live",
             "selected": undefined,
-            "url": "https://simonmika.com/articles/toLive",
+            "url": "https://simonmika.com/articles/to-live",
           },
         ],
-        "label": "untitled",
+        "label": "(untitled)",
         "selected": undefined,
         "url": "https://simonmika.com/articles",
       },
       {
         "items": [],
-        "label": "untitled",
+        "label": "(untitled)",
         "selected": undefined,
         "url": "https://simonmika.com/talks",
       },
@@ -1020,17 +1020,17 @@ exports[`simonmika-com > model.Context.load(non-existent) 1`] = `
     ],
   },
   "title": "Simon Says · Not Found",
-  "url": "https://simonmika.com",
+  "url": "https://simonmika.com/non-existent",
 }
 `;
 
 exports[`simonmika-com > model.Context.load(talks) 1`] = `
 {
+  "base": "https://simonmika.com",
   "content": {
     "content": "",
-    "id": "talks",
     "mode": "full",
-    "summary": "...",
+    "summary": "",
     "title": "(untitled)",
   },
   "footer": "Copyright © 2025 Simon Says, All rights reserved",
@@ -1048,7 +1048,7 @@ exports[`simonmika-com > model.Context.load(talks) 1`] = `
             "items": [],
             "label": "CSS is Still Broken",
             "selected": undefined,
-            "url": "https://simonmika.com/articles/cssBroken",
+            "url": "https://simonmika.com/articles/css-broken",
           },
           {
             "items": [],
@@ -1060,59 +1060,59 @@ exports[`simonmika-com > model.Context.load(talks) 1`] = `
             "items": [],
             "label": "Optimizing Databases",
             "selected": undefined,
-            "url": "https://simonmika.com/articles/optimizingDatabases",
+            "url": "https://simonmika.com/articles/optimizing-databases",
           },
           {
             "items": [],
             "label": "Optimizing Execution Speed",
             "selected": undefined,
-            "url": "https://simonmika.com/articles/optimizingExecutionSpeed",
+            "url": "https://simonmika.com/articles/optimizing-execution-speed",
           },
           {
             "items": [],
             "label": "Optimizing Software",
             "selected": undefined,
-            "url": "https://simonmika.com/articles/optimizingSoftware",
+            "url": "https://simonmika.com/articles/optimizing-software",
           },
           {
             "items": [],
             "label": "The Programming Interview",
             "selected": undefined,
-            "url": "https://simonmika.com/articles/programmingInterview",
+            "url": "https://simonmika.com/articles/programming-interview",
           },
           {
             "items": [],
             "label": "Recruiting Process",
             "selected": undefined,
-            "url": "https://simonmika.com/articles/recruitingProcess",
+            "url": "https://simonmika.com/articles/recruiting-process",
           },
           {
             "items": [],
             "label": "Rock Star Programmers",
             "selected": undefined,
-            "url": "https://simonmika.com/articles/rockStarProgrammers",
+            "url": "https://simonmika.com/articles/rock-star-programmers",
           },
           {
             "items": [],
             "label": "Taking Risk When Dying",
             "selected": undefined,
-            "url": "https://simonmika.com/articles/takingRiskWhenDying",
+            "url": "https://simonmika.com/articles/taking-risk-when-dying",
           },
           {
             "items": [],
             "label": "To Live",
             "selected": undefined,
-            "url": "https://simonmika.com/articles/toLive",
+            "url": "https://simonmika.com/articles/to-live",
           },
         ],
-        "label": "untitled",
+        "label": "(untitled)",
         "selected": undefined,
         "url": "https://simonmika.com/articles",
       },
       {
         "items": [],
-        "label": "untitled",
-        "selected": undefined,
+        "label": "(untitled)",
+        "selected": "current",
         "url": "https://simonmika.com/talks",
       },
       {
@@ -1142,6 +1142,6 @@ exports[`simonmika-com > model.Context.load(talks) 1`] = `
     ],
   },
   "title": "Simon Says · ",
-  "url": "https://simonmika.com",
+  "url": "https://simonmika.com/talks",
 }
 `;

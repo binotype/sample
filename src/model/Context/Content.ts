@@ -1,7 +1,6 @@
 import { isoly } from "isoly"
 
 export interface Content {
-	id: string
 	mode: "body" | "full" | "header" | "list" | "summary"
 	title: string
 	summary: string
