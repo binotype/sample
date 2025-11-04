@@ -17,4 +17,16 @@ export namespace Page {
 	export function getTitle(page: Page): string {
 		return page.title ?? "(untitled)"
 	}
+	export function getId(id: string): string {
+		return (
+			id
+				.replace(/([a-z0-9])([A-Z])/g, "$1-$2")
+				.toLowerCase()
+				.normalize("NFKD")
+				.replace(/[\u0300-\u036f]/g, "")
+				.replace(/[^a-z0-9-]+/g, "-")
+				.replace(/-+/g, "-")
+				.replace(/^-+|-+$/g, "") ?? "untitled"
+		)
+	}
 }

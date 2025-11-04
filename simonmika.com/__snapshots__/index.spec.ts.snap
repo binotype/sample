@@ -4,7 +4,8 @@ exports[`simonmika-com > model.Context.load() 1`] = `
 {
   "base": "https://simonmika.com",
   "content": {
-    "content": "The requested page was not found.",
+    "id": "",
+    "main": "The requested page was not found.",
     "mode": "full",
     "summary": "The requested page was not found.",
     "title": "Not Found",
@@ -126,7 +127,8 @@ exports[`simonmika-com > model.Context.load(about) 1`] = `
 {
   "base": "https://simonmika.com",
   "content": {
-    "content": "I am Simon Mika, and I create things. Professionally I create software products. Either hands on or by creating the organization that builds the products.
+    "id": "about",
+    "main": "I am Simon Mika, and I create things. Professionally I create software products. Either hands on or by creating the organization that builds the products.
 
 I live in Uppsala, Sweden with my wife Sannah and my four kids in a house from 1937 that we have been renovating since 2009.
 
@@ -259,7 +261,8 @@ exports[`simonmika-com > model.Context.load(articles) 1`] = `
 {
   "base": "https://simonmika.com",
   "content": {
-    "content": "",
+    "id": "articles",
+    "main": "",
     "mode": "full",
     "summary": "",
     "title": "(untitled)",
@@ -381,7 +384,8 @@ exports[`simonmika-com > model.Context.load(articles/abstractions) 1`] = `
 {
   "base": "https://simonmika.com",
   "content": {
-    "content": "We humans can in our head only concurrently work with about eight items. If we try to work with significantly more we will lose some items. It is the human equivalent of a stack overflow. Our stack has a maximum depth of about eight. In order to handle more we need to bundle items together into a new item. It is the equivalent of grouping them together in a data structure and putting them into the heap and just store the pointer to it all on the stack.
+    "id": "abstractions",
+    "main": "We humans can in our head only concurrently work with about eight items. If we try to work with significantly more we will lose some items. It is the human equivalent of a stack overflow. Our stack has a maximum depth of about eight. In order to handle more we need to bundle items together into a new item. It is the equivalent of grouping them together in a data structure and putting them into the heap and just store the pointer to it all on the stack.
 
 We humans can in our head only concurrently work with about eight items. If we try to work with significantly more we will lose some items. It is the human equivalent of a stack overflow. Our stack has a maximum depth of about eight. In order to handle more we need to bundle items together into a new item. It is the equivalent of grouping them together in a data structure and putting them into the heap and just store the pointer to it all on the stack.
 
@@ -514,7 +518,8 @@ exports[`simonmika-com > model.Context.load(articles/naming) 1`] = `
 {
   "base": "https://simonmika.com",
   "content": {
-    "content": "The power of _naming_ extends far beyond programming. From ancient myths where knowing something's _true name_ gave power over it, to modern branding where companies spend millions on finding the _right name_, to parents carefully choosing names for their children – our ability to name things shapes how we think and communicate about them.
+    "id": "naming",
+    "main": "The power of _naming_ extends far beyond programming. From ancient myths where knowing something's _true name_ gave power over it, to modern branding where companies spend millions on finding the _right name_, to parents carefully choosing names for their children – our ability to name things shapes how we think and communicate about them.
 
 In software development, this universal human trait becomes _absolutely crucial_. Unlike physical engineering where you can point to concrete objects, programming deals entirely with _mental constructs_ and _abstract concepts_. We can't touch or see our constructs directly – we can only refer to them by name. Almost all concepts programming languages provide to create [abstractions](../abstractions) have one really important thing in common. They all have the ability to _name_ the abstraction. This is among others true for _variables_, _functions_, _classes_ and _namespaces_.
 
@@ -648,7 +653,8 @@ exports[`simonmika-com > model.Context.load(articles/to-live) 1`] = `
 {
   "base": "https://simonmika.com",
   "content": {
-    "content": "The requested page was not found.",
+    "id": "to-live",
+    "main": "The requested page was not found.",
     "mode": "full",
     "summary": "The requested page was not found.",
     "title": "Not Found",
@@ -770,7 +776,8 @@ exports[`simonmika-com > model.Context.load(contact) 1`] = `
 {
   "base": "https://simonmika.com",
   "content": {
-    "content": "Don't hesitate to contact me with ideas, suggestions and opinions. I look forward to hear from you.
+    "id": "contact",
+    "main": "Don't hesitate to contact me with ideas, suggestions and opinions. I look forward to hear from you.
 
 <form action="https://getsimpleform.com/messages?form_api_token=5f6ce7baef1b2e89d2be999fdc119828" method="post">
 <input type='hidden' name='redirect_to' value='https://simonmika.com/message-received' />
@@ -906,7 +913,8 @@ exports[`simonmika-com > model.Context.load(non-existent) 1`] = `
 {
   "base": "https://simonmika.com",
   "content": {
-    "content": "The requested page was not found.",
+    "id": "non-existent",
+    "main": "The requested page was not found.",
     "mode": "full",
     "summary": "The requested page was not found.",
     "title": "Not Found",
@@ -1028,7 +1036,8 @@ exports[`simonmika-com > model.Context.load(talks) 1`] = `
 {
   "base": "https://simonmika.com",
   "content": {
-    "content": "",
+    "id": "talks",
+    "main": "",
     "mode": "full",
     "summary": "",
     "title": "(untitled)",

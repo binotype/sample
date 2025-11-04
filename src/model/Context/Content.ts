@@ -2,6 +2,7 @@ import { isoly } from "isoly"
 
 export interface Content {
 	mode: "body" | "full" | "header" | "list" | "summary"
+	id: string
 	title: string
 	summary: string
 	image?: string
@@ -11,6 +12,6 @@ export interface Content {
 	readingTime?: number
 	author?: string
 	publication?: string
-	content: string | Content[]
+	main: string | Content[]
 }
 export namespace Content {}

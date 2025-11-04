@@ -27,9 +27,10 @@ export namespace Context {
 			menu: Menu.load(site, path),
 			content: {
 				mode: "full",
-				title: page?.title ?? "(untitled)",
+				id: path.substring(path.lastIndexOf("/") + 1),
+				title: Site.Page.getTitle(page),
 				summary: page.content ? String(page.content).slice(0, 200) : "",
-				content: String(page.content ?? ""),
+				main: String(page.content ?? ""),
 			},
 			footer: `Copyright © ${new Date().getFullYear()} ${site.title}, All rights reserved`,
 		}
