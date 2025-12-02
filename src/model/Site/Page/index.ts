@@ -1,4 +1,8 @@
 import { isoly } from "isoly"
+import { dom } from "@typeup/dom"
+import { parser } from "@typeup/parser"
+import { renderer } from "@typeup/renderer"
+import { mendly } from "mendly"
 import { Section } from "../Section"
 
 export interface Page {
@@ -28,6 +32,33 @@ export namespace Page {
 				.replace(/[^a-z0-9-]+/g, "-")
 				.replace(/-+/g, "-")
 				.replace(/^-+|-+$/g, "") ?? "untitled"
+		)
+	}
+	export async function parse(raw: string): Promise<Page | undefined> {
+		const document: dom.Document | undefined = parser.parse(
+			mendly.Reader.String.create(raw),
+			new mendly.Error.Handler.Console()
+		)
+		const rendered = document && (await renderer.render(document))
+		const assignments = Object.fromEntries(
+			document?.content
+				.filter((node): node is dom.Block.Assignment => node.class == "assignment")
+				.map(assignment => [assignment.name, assignment.value]) ?? []
+		)
+		return (
+			document && {
+				weight: assignments.weight ? Number(assignments.weight) : undefined,
+				title: assignments.title,
+				menu: assignments.menu == "false" ? false : undefined,
+				date: isoly.Date.is(assignments.date) ? assignments.date : undefined,
+				tags: assignments.tags
+					? String(assignments.tags)
+							.split(",")
+							.map(tag => tag.trim())
+					: undefined,
+				draft: assignments.draft == "true" ? true : undefined,
+				content: rendered ?? raw,
+			}
 		)
 	}
 }
