@@ -1,5 +1,4 @@
 import { Component, h, Prop } from "@stencil/core"
-
 @Component({
 	tag: "app-profile",
 	styleUrl: "app-profile.css",
@@ -20,6 +19,9 @@ export class AppProfile {
 			return (
 				<div class="app-profile">
 					<p>Hello! My name is {this.normalize(this.name)}. My name was passed in through a route param!</p>
+					<smoothly-input type="text" value={this.name}>
+						<smoothly-label>Name</smoothly-label>
+					</smoothly-input>
 				</div>
 			)
 		}
