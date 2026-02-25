@@ -1,4 +1,7 @@
 import { Component, h, Prop } from "@stencil/core"
+import "@binotype/site"
+import type { Site } from "@binotype/site"
+
 @Component({
 	tag: "app-profile",
 	styleUrl: "app-profile.css",
@@ -6,6 +9,20 @@ import { Component, h, Prop } from "@stencil/core"
 })
 export class AppProfile {
 	@Prop() name: string
+	siteConfig: Site = {
+		url: "https://example.com",
+		language: "en",
+		title: "My Static Site",
+		tagline: "Built with Stencil SSG and Binotype",
+		author: "Your Name",
+		description: "A static site generated with Stencil",
+		design: {
+			overrides: {},
+		},
+		page: {
+			path: { segments: [] },
+		},
+	}
 
 	normalize(name: string): string {
 		if (name) {
@@ -22,6 +39,7 @@ export class AppProfile {
 					<smoothly-input type="text" value={this.name}>
 						<smoothly-label>Name</smoothly-label>
 					</smoothly-input>
+          <binotype-site site={this.siteConfig}></binotype-site>
 				</div>
 			)
 		}
