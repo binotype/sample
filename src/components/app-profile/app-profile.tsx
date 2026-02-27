@@ -1,7 +1,10 @@
 import { Component, h, Prop } from "@stencil/core"
-import "@binotype/site"
-import type { Site } from "@binotype/site"
+import { isly } from "isly"
+import { defineCustomElements } from "@binotype/site/loader"
+import type { binotype } from "@binotype/site"
 
+// Define all components once in your app root
+defineCustomElements()
 @Component({
 	tag: "app-profile",
 	styleUrl: "app-profile.css",
@@ -9,21 +12,10 @@ import type { Site } from "@binotype/site"
 })
 export class AppProfile {
 	@Prop() name: string
-	siteConfig: Site = {
-		url: "https://example.com",
-		language: "en",
-		title: "My Static Site",
-		tagline: "Built with Stencil SSG and Binotype",
-		author: "Your Name",
-		description: "A static site generated with Stencil",
-		design: {
-			overrides: {},
-		},
-		page: {
-			path: { segments: [] },
-		},
+	private site: binotype.Site = {
+		name: "Sample Site",
+		t: 42,
 	}
-
 	normalize(name: string): string {
 		if (name) {
 			return name.substr(0, 1).toUpperCase() + name.substr(1).toLowerCase()
@@ -35,11 +27,17 @@ export class AppProfile {
 		if (this.name) {
 			return (
 				<div class="app-profile">
-					<p>Hello! My name is {this.normalize(this.name)}. My name was passed in through a route param!</p>
+					<p>
+						Hello! My name is {this.normalize(this.name)} {globalThis.Number.isInteger(1337).toString()}. My name was
+						passed in through a route param!
+					</p>
+					<code>
+						<pre>{globalThis.JSON.stringify(isly.number("value", 1337).is(1337), null, 2)}</pre>
+					</code>
 					<smoothly-input type="text" value={this.name}>
 						<smoothly-label>Name</smoothly-label>
 					</smoothly-input>
-          <binotype-site site={this.siteConfig}></binotype-site>
+					<binotype-site site={this.site}>test</binotype-site>
 				</div>
 			)
 		}
