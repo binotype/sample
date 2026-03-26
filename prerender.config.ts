@@ -23,7 +23,7 @@ export const config: PrerenderConfig = {
 		// site?.replaceWith(...site.childNodes)
 		if (site) {
 			document.body.append(...site.childNodes)
-			document.body.removeChild(site)
+			document.body.removeChild(site.parentElement!)
 		}
 		console.log(`✅ Finished prerender for: ${url}`)
 		return document

@@ -5,7 +5,7 @@ import { inlineSvg } from "stencil-inline-svg"
 const dev = process.argv.includes("--dev")
 
 export const config: Config = {
-	namespace: "binotype",
+	namespace: "website",
 	autoprefixCss: false,
 	buildEs5: "prod",
 	devServer: {
@@ -15,7 +15,7 @@ export const config: Config = {
 	extras: {
 		enableImportInjection: true,
 	},
-	globalStyle: "src/main.scss",
+	globalStyle: "design/style/index.scss",
 	hashFileNames: !dev,
 	hydratedFlag: {
 		selector: "attribute",
@@ -45,8 +45,12 @@ export const config: Config = {
 			type: "www",
 			// comment the following line to disable service workers in production
 			serviceWorker: null,
-			baseUrl: "https://site.binotype.org/",
+			baseUrl: "https://sample.binotype.org/",
 			prerenderConfig: "./prerender.config.ts",
+			copy: [
+				{ src: "../design/icon/*", dest: "icon/" },
+				{ src: "../design/assets/*", dest: "assets/" },
+			],
 		},
 	],
 	plugins: [inlineSvg(), sass()],

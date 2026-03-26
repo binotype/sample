@@ -58,9 +58,9 @@
 		"test": "vitest --run",
 		"test.watch": "vitest --watch",
 		"generate": "stencil generate",
-		"lint": "eslint src/**/*.{ts,tsx}",
-		"format": "prettier --write \"src/**/*.{ts,tsx,js,jsx,json,css,scss,md}\"",
-		"verify": "npm run lint && npm run build && npm run test"
+		"lint": "eslint ./**/*.{ts,tsx}",
+		"fix": "prettier --write \"./**/*.{ts,tsx,js,jsx,json,css,scss,md}\"",
+		"verify": "npm run lint && npm run build && npm run test && npm audit"
 	},
 	"devDependencies": {
 		"@stencil/core": "^4.43.3",
@@ -86,9 +86,10 @@
 		"vitest": "^4.1.1"
 	},
 	"dependencies": {
-		"@binotype/model": "^0.2.0",
+		"@binotype/model": "^0.3.1",
 		"isly": "^1.8.0",
 		"isoly": "^3.1.8",
+		"showdown": "^2.1.0",
 		"tidily": "^0.2.7"
 	},
 	"peerDependencies": {
